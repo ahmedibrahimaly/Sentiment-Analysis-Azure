@@ -112,3 +112,6 @@ widgetsnbextension==3.5.2
 wincertstore==0.2
 workalendar==16.2.0
 zict==2.0.0
+uvloop
+httptools
+gunicorn==20.0.4
