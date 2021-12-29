@@ -4,11 +4,11 @@ import utils
 
 app = FastAPI()
 
-# headers = {
-#     "Ocp-Apim-Subscription-Key": "c9ebc7dd016441d0b1d5b0a8bf07027c",
-#     "Content-Type": "application/json",
-#     "Accept": "application/json"
-# }
+headers = {
+     "Ocp-Apim-Subscription-Key": "c9ebc7dd016441d0b1d5b0a8bf07027c",
+     "Content-Type": "application/json",
+     "Accept": "application/json"
+ }
 
 class Model(BaseModel):
     text_to_analyze: list
